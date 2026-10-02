@@ -19,3 +19,14 @@ Seluruh pemrosesan data satelit temporal dilakukan langsung di sisi server tanpa
 ## 📁 Struktur Repositori Folder
 * `/src/forest_monitoring.js` : Skrip pemrograman JavaScript API untuk dijalankan di GEE Code Editor.
 * `README.md` : Dokumentasi utama laporan dan ringkasan analisis lingkungan proyek.
+
+
+## 📊 Lampiran Visual Grafik (Visual Analytics)
+![Grafik Deret Waktu NDMI Kalimantan](ee-chart.png)
+
+### 💡 Interpretasi & Analisis Grafik NDMI
+Berdasarkan grafik deret waktu (*time series*) interaktif yang dihasilkan di atas, berikut adalah poin analisis geografis lingkungannya:
+
+* **Tahun 2019 – 2021 (Kondisi Hutan Stabil):** Garis grafik berada konsisten di posisi atas pada rentang nilai **0,4 hingga 0,6**. Hal ini menunjukkan kanopi hutan hujan tropis di lokasi studi masih sangat rapat, sehat, dan memiliki kandungan air vegetasi yang tinggi.
+* **Tahun 2022 (Titik Gangguan / Breakpoint Event):** Garis grafik tiba-tiba **terjun bebas (drop ekstrem) dari nilai 0,5 langsung anjlok ke rentang 0,0 hingga -0,1**. Penurunan tajam yang permanen ini menjadi bukti otentik rekaman satelit bahwa pada tahun 2022 telah terjadi aktivitas **penebangan habis (deforestasi)** skala besar di titik koordinat tersebut.
+* **Tahun 2023 – 2025 (Fase Pasca-Gangguan):** Nilai grafik terus mendatar dan tertahan di angka rendah (**-0,1 hingga 0,1**), menandakan permukaan lahan telah kehilangan vegetasi aslinya secara permanen dan menyisakan lahan terbuka atau semak rendah.
